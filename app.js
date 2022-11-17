@@ -69,3 +69,8 @@ function changeText() {
     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
   }
 }
+
+function emailSent(){
+  document.getElementById("sent").style.color='white';
+  document.getElementById("thankyou").style.color='white';
+}
