@@ -200,12 +200,15 @@
         <input type="hidden" name="_subject" value="New Email from website">
         <label for="fname" style="color: white;">Sender Email</label>
         <input type="email" id="fname" name="email" placeholder="Your Email Address" required>
-        <input type="hidden" name="_next" value="http://joaopimentagiudice/thanks.html">
+        <!--<input type="hidden" name="_next" value="http://joaopimentagiudice.com/thanks.html">-->
         <label for="subject" style="color: white;">Write your message here</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        <input type="submit" value="Submit">
-    
+        <input type="submit" value="Submit" onclick="emailSent()" >
       </form>
+      <p id="sent">Your email has been sent!</p>
+      <p></p>
+      <p></p>
+      <p id="thankyou">Thank you!</p>
     </div>
 
     <!-- Footer Section -->
@@ -231,6 +234,7 @@
         </div>
       </section>
     </div>
+    
 
     <script src="app.js"></script>
   </body>
