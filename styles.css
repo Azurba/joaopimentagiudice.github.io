@@ -469,6 +469,51 @@
     }
   }
 
+  /*Education Section */
+
+  .education {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+  }
+  .education__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .education h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+  }
+
+  .education h3{
+    text-align: center;
+    color: white;
+  }
+
+  .education h4{
+    text-align: center;
+    color: white;
+  }
+
+  #edu_img{
+    width: 250px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
 
   /* Skills Section */
   .services {
