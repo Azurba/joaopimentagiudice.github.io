@@ -6,6 +6,6 @@ This is my resume website created on November 2022 in preparations for a job tec
 * Deployed on 11/16/2022
 
 ### V.2.0
-* Working in Progress
 * Added education section
-* Not yet deployed
+* Added logo
+* fix tab name
