@@ -52,8 +52,8 @@ const hideMobileMenu = () => {
   }
 };
 
-menuLinks.addEventListener('click', hideMobileMenu);
-navLogo.addEventListener('click', hideMobileMenu);
+/* menuLinks.addEventListener('click', hideMobileMenu);
+navLogo.addEventListener('click', hideMobileMenu); */
 
 
 var text = ["I am a Software Engineer", "I am Creative", "I am a Team Player", "I am Hard-Working", "I am Good Communicator"];
