@@ -546,7 +546,7 @@
   
   .services__card {
     margin: 10px;
-    height: 425px;
+    height: 35rem;
     width: 300px;
     border-radius: 40px;
     display: flex;
@@ -843,4 +843,16 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #131313;
   padding: 20px;
+}
+
+.pricing-card{
+  margin: 2rem;
+}
+
+.card-footer{
+  text-align: center;
+}
+
+.cards-div{
+  height: 21rem;
 }

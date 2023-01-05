@@ -20,7 +20,7 @@ const highlightMenu = () => {
   // console.log(scrollPos);
 
   // adds 'highlight' class to my menu items
-  if (window.innerWidth > 960 && scrollPos < 600) {
+  /* if (window.innerWidth > 960 && scrollPos < 600) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
@@ -37,7 +37,7 @@ const highlightMenu = () => {
 
   if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
     elem.classList.remove('highlight');
-  }
+  } */
 };
 
 window.addEventListener('scroll', highlightMenu);
