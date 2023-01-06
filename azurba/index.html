@@ -15,7 +15,6 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-
 </head>
 
 <body>
@@ -34,13 +33,13 @@
           <!--  Bootstrap navbar = navbar-nav -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Contact</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="https://github.com/Azurba/Azurba-s_MTG_Player_Panel">Download</a>
             </li>
             </ul>
         </div>
@@ -52,8 +51,8 @@
       <div class="col-lg-6">
         <!-- <h1>Play Magic The Gathering like never before</h1> -->
         <h1 class="text-hero" style="font-size: 5rem;">The greatest Magic The Gathering Panel. Period.</h1>
-        <button style="margin-right: 2rem;" type="button" class="hero-btn btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
-        <button type="button" class="hero-btn btn btn-dark btn-lg"> <i class="fa-brands fa-google-play"></i> Download</button>
+        <button style="margin-right: 2rem;" type="button" class="hero-btn btn btn-dark btn-lg" onclick="signUpBtn()"><i class="fa-brands fa-apple"></i> Download</button>
+        <button type="button" class="hero-btn btn btn-dark btn-lg" onclick="signUpBtn()"> <i class="fa-brands fa-google-play"></i> Download</button>
       </div>
 
       <div class="col-lg-3">
@@ -165,7 +164,7 @@
             <p class="card-text">5 Matches a day</p>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-lg btn-success">Sign Up</button>
+            <button type="button" class="btn btn-lg btn-success" onclick="signUpBtn()">Sign Up</button>
           </div>
         </div>
       
@@ -185,7 +184,7 @@
             <p class="card-text">No Ads</p>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-lg btn-success">Sign Up</button>
+            <button type="button" class="btn btn-lg btn-success" onclick="signUpBtn()">Sign Up</button>
           </div>
         </div>
 
@@ -206,7 +205,7 @@
             <p class="card-text">AI Recording Transcript</p>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-lg btn-success">Sign Up</button>
+            <button type="button" class="btn btn-lg btn-success" onclick="signUpBtn()">Sign Up</button>
           </div>
         </div>
 
@@ -216,25 +215,13 @@
     </div>
   </section>
 
-
-  <!-- Call to Action -->
-
-  <!-- <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
-  </section> -->
-
-
   <!-- Footer -->
 
   <footer id="footer">
     <p>© Joao Pimenta Giudice 2022. All rights reserved</p>
   </footer>
 
-
+  <script src="script.js"></script>
 </body>
 
 </html>
