@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Azurba's MTG Panel</title>
+  <!-- Add Bootstrap CDN - MUST GO BEFORE own stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8e48c4101d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Carousel scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-ligh">
+        <!--  Bootstrap logo = navbar-brand -->
+        <a class="navbar-brand" href="">Azurba's MTG Panel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 1rem;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <!--  Bootstrap margin = ms-auto -->
+          <!--  Bootstrap navbar = navbar-nav -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+            </ul>
+        </div>
+      </nav>
+    
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <!-- <h1>Play Magic The Gathering like never before</h1> -->
+        <h1 class="text-hero" style="font-size: 5rem;">The greatest Magic The Gathering Panel. Period.</h1>
+        <button style="margin-right: 2rem;" type="button" class="hero-btn btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+        <button type="button" class="hero-btn btn btn-dark btn-lg"> <i class="fa-brands fa-google-play"></i> Download</button>
+      </div>
+
+      <div class="col-lg-3">
+        <img class="title-img" src="images/celular.png" alt="iphone-mockup">
+      </div>
+      <div class="col-lg-3">
+        <img class="title-img" src="images/celular2.png" alt="iphone-mockup">
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <h3><i class="fa-solid fa-circle-check"></i> Easy to use.</h3>
+        <p>So easy to use, even beginners can use</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3><i class="fa-solid fa-bullseye"></i> Elite Clientele</h3>
+        <p>Used by competitive players</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3><i class="fa-solid fa-heart"></i> Guaranteed to work.</h3>
+        <p>Love it or your money back</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>Users Testimonials</h2>
+
+    <!-- CAROUSEL -->
+  <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-color: #ef8172">
+        <img class="testimonial-image" src="images/toddanderson.webp" alt="todd-profile">
+        <h2>"I no longer have to have a piece of paper to keep track of my mana pool."</h2>
+        <p>Todd Anderson - Professional Player</p>
+      </div>
+      <div class="carousel-item" style="background-color: #ef8172;">
+        <img class="testimonial-image" src="images/pedro.jpg" alt="todd-profile">
+        <h2>"Awesome! No more dices and counters to keep track of everything!"</h2>
+        <p>Pedro Brandao - Casual Player and your friend</p>
+      </div>
+      <div class="carousel-item" style="background-color: #ef8172">
+        <img class="testimonial-image" src="images/miguel.jpg" alt="todd-profile">
+        <h2>"This is app is a gamechanger in the Magic The Gathering community"</h2>
+        <p>Miguel Santucci - Casual Player and "Tahm kenchizinho"</p>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <h2>Partners</h2>
+    <div class="row">
+      <div class="feature-box col-lg-4 press-logo">
+        <img src="images/ck-header-title.webp" alt="ck-logo">
+      </div>
+      <div class="feature-box col-lg-4 press-logo">
+        <img src="images/star-city-logo.webp" alt="sc-logo">
+      </div>
+      <div class="feature-box col-lg-4 press-logo">
+        <img src="images/wotc-logo.webp" alt="wotc-logo">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Player's need</h2>
+
+    <!-- Cards -->
+
+    <div class="row">
+    
+      <div class="pricing-card col-lg-4 col-md-6">
+        
+        <div class="card mb-3">
+          <img class="card-img-top" src="images/urza.jpg" alt="Card image cap">
+          <div class="card-header">
+            <h3 class="card-title" style="font-weight: bold;">The Urza Plan</h3>
+          </div>
+          <div class="cards-div card-body">
+            <h3 class="card-title" style="font-weight: bold;">Free</h3>
+            <p class="card-text">5 Matches a day</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-lg btn-success">Sign Up</button>
+          </div>
+        </div>
+      
+      </div>
+  
+      <div class="pricing-card col-lg-4 col-md-6">
+      
+        <div class="card mb-3">
+          <img class="card-img-top" src="images/Yawgmoth.jpg" alt="Card image cap">
+          <div class="card-header">
+            <h3 class="card-title" style="font-weight: bold;">The Yawgmoth Plan</h3>
+          </div>
+          <div class="cards-div card-body">
+            <h3 class="card-title" style="font-weight: bold;">$29.99</h3>
+            <p class="card-text">Unlimited Matches a day</p>
+            <p class="card-text">Deck Analyzer</p>
+            <p class="card-text">No Ads</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-lg btn-success">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+  
+      <div class="pricing-card col-lg-4 col-md-12">
+        
+        <div class="card mb-3">
+          <img class="card-img-top" src="images/nicol-bolas2.jpg" alt="Card image cap">
+          <div class="card-header">
+            <h3 class="card-title" style="font-weight: bold;">The Nicol Bolas Plan</h3>
+          </div>
+          <div class="cards-div card-body">
+            <h3 class="card-title" style="font-weight: bold;">$59.99</h3>
+            <p class="card-text">Unlimited Matches a day</p>
+            <p class="card-text">Deck Analyzer</p>
+            <p class="card-text">No Ads</p>
+            <p class="card-text">AI Recording Transcript</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-lg btn-success">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <!-- <section id="cta">
+
+    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section> -->
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <p>© Joao Pimenta Giudice 2022. All rights reserved</p>
+  </footer>
+
+
+</body>
+
+</html>

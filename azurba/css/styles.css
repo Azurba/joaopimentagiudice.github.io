@@ -1,0 +1,164 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+/* .col-lg-6 img{
+    margin-left: 20%;
+} */
+
+
+/* NAVBAR SECTION */
+
+.navbar-toggler{
+    border-color: white;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-toggler.navbar-toggler {
+    border-color: black;
+}
+
+.nav-item{
+    padding: 0 40px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* The bootstrap hamburguer menu "lines" use uses an SVG background-image */
+/* If we want a different color, we need a new image that is of different color */
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("https://static.thenounproject.com/png/547164-200.png");
+}
+
+.navbar-brand{
+    color: white;
+    /*margin: 2rem;*/
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+
+/* HERO SECTION */
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.text-hero button{
+    margin-top: 10rem;
+}
+
+.text-hero{
+    margin-bottom: 5rem;
+}
+
+/* FEATURES SECTION */
+
+
+#features{
+    margin: 12rem;
+}
+
+#features h3{
+    font-size: 2.5rem;
+}
+
+#features p{
+    font-size: 1.5rem;
+}
+
+
+/* TESTIMONIAL SECTION */
+
+#testimonials{
+    padding: 0 7%;
+    /* height: 400px; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    margin: 30px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+/* PRESS SECTION */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    margin-top: 50px;
+}
+
+#press h2{
+    color: white;
+    padding-top: 30px;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+.cards-div{
+    height: 15rem;
+}
+
+.cards-div p{
+    font-size:20px;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+    text-align: center;
+}
+
+#footer p{
+    font-size: 1.5rem;
+}
