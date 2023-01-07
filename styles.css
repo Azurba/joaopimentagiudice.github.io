@@ -856,3 +856,25 @@ input[type=submit]:hover {
 .cards-div{
   height: 21rem;
 }
+
+.education-card{
+  margin: 2rem;
+}
+
+.education-div{
+  height: 10rem;
+}
+
+.card-body{
+  height: 16rem;
+  text-justify: inter-character;
+}
+
+.card-title{
+  text-align: center;
+  margin: auto 0 auto 0;
+}
+
+.card-footer{
+  height: r;
+}
