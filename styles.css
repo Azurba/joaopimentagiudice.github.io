@@ -920,11 +920,21 @@ input[type=submit]:hover {
 }
 
 .card-subtitle{
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   text-align: center;
 }
 
 .card-img-top{
   height: 15rem;
+}
+
+.course-icon{
+  height: 40px;
+  width: 40px;
+}
+
+.course-icon-u{
+  height: 40px;
+  width: 70px;
 }
