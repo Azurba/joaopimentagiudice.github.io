@@ -525,6 +525,27 @@
     height: 100%;
     padding: 10rem 0;
   }
+
+  .courses{
+    background: #131313;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    adding: 10rem 0;
+  }
+
+  .courses h1{
+    text-align: center;
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 2.5rem;
+  }
   
   .services h1 {
     background-color: #ff8177;
@@ -877,4 +898,33 @@ input[type=submit]:hover {
 
 .card-footer{
   z-index: 9;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.card-text{
+  height: 14rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card-title{
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-subtitle{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.card-img-top{
+  height: 15rem;
 }
